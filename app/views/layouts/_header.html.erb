@@ -1,0 +1,93 @@
+<div id="container" class="clearfix">
+    <div id="header">
+    	<%= link_to image_tag("header.jpg", :alt=>""), root_path %>
+	<div id="topnav">              	
+        <ul id="menu" class="clearfix">       
+			<li>
+				<a href="#" class="first"></a><a href="#" class="MenuBarItemSubmenu style3 style7">About NCCSEFCU</a>
+				<ul>
+					<li><%= link_to "History", history_path %></li>
+					<li><%= link_to "Mission", mission_path %></li>
+                    <li><%= link_to "Affiliations", affiliations_path %></li>
+					<li><%= link_to "Privacy Statement", privacy_path %></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Online Services</a>
+				<ul>
+					<li><%= link_to "Calculator", slc_path %></li>
+					<li><%= link_to "Home Banking", homebanking_path %></li>
+					<li><%= link_to "How to Join", membership_path %></li>
+					<li><%= link_to "Helpful Links", links_path %></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">Products &amp; Services</a>
+				<ul>
+                    <li><%= link_to "Investments", investments_path %></li>
+                    <li><%= link_to "Loans", loans_path %></li>
+                    <li><%= link_to "Member Services", member_path %></li>
+                </ul>
+            </li>
+            <li><%= link_to "Current Rates", rates_path %>
+                <ul>
+                   <li><%= link_to "Share Rates", rates_path(:anchor => "share") %></li>
+                   <li><%= link_to "Loan Rates", rates_path(:anchor => "loan") %></li>
+                   <li><%= link_to "Fee Schedule", rates_path(:anchor =>"fees") %></li>
+                </ul>
+            </li>
+			<li>
+				<a href="#">What's New</a>
+				<ul>
+					<li><%= link_to "Upcoming Events", whatsnew_path %></li>
+                    <li><%= link_to "Newsletter", newsletter_path %></li>
+                    <li><%= link_to "Community News", community_path %></li>
+                    <li><%= link_to "Helpful Links", links_path %></li>
+				</ul>
+			</li>
+			<li><a href="#"> Location &amp; Hours</a>
+			  <ul>
+			    <li><%= link_to "Branch Locations", locations_path %></li>
+			    <li><%= link_to "ATM Locations", atm_path %></li>
+		      </ul>
+			</li>
+		</ul>                
+    </div>
+	</div>
+    <div id="leftnav">
+        <%= image_tag "left_login.jpg", :alt=>"" %>
+        <table class="login">
+            <tr>
+                <td>
+                    <form action="https://www.nccsefcu.org/hbv3_2/login.asp" method="post" id="login">
+                        <table cellpadding="4" cellspacing="0">
+                            <tr>
+                                <td>Account #:</td>
+                            </tr>
+                            <tr>
+                                <td><input name="account" size="10" /></td>
+                            </tr>
+                            <tr>
+                                <td>PIN:</td>
+                            </tr>
+                            <tr>
+                                <td><input name="pin" size="10" type="password" value="" /></td>
+                            </tr>
+                            <tr>
+                                <td><input type="submit" value="Login" alt="Access your account(s)" /></td>
+                            </tr>
+                        </table>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <ul>
+            <li><%= link_to "Apply for a Loan", loanapp_path %></li>
+            <li><%= link_to "How to Join", join_path %></li>
+            <li><%= link_to "Helpful Links", links_path %></li>
+            <li><%= link_to "Calendar", "http://pub4.bravenet.com/calendar/show.php?usernum=264481193", :rel=>"confirm external" %></li>
+            <li><%= link_to "Contact NCCSEFCU", contact_path %></li>
+        </ul>
+        <%= link_to image_tag("newsletter.jpg", :alt=>""), "pdf/oct2010.pdf", :rel=>"external" %>
+    </div>    
+<div id="main" class="clearfix">

@@ -1,0 +1,77 @@
+/* TOP LEVEL MENUS */
+ul#menu {
+	background-repeat: repeat-x;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+ul#menu li {
+	display: inline-block;
+	background-color: transparent;
+	float: left;
+	margin: 0;
+	padding-left:;
+}
+ul#menu li a {
+	text-decoration: none;
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	line-height: 21px;
+	display: block;
+	color: #ffffff;
+	position: relative;
+	padding: 0 22px 0 12px;
+}
+
+ul#menu li a.first {
+	border-left: 0 none;
+}
+
+/* 2ND LEVEL AND ABOVE */
+ul#menu li ul {
+	background-color: #006766;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	position: absolute;
+	color: #ffffff;
+	background-image: none;
+	left: -999em;
+	z-index: 100;
+	width: 12em;
+}
+ul#menu li ul li {
+	background-image: url( '../images/navdot.jpg' );
+	background-repeat: no-repeat;
+	background-position: left center;
+	display: block;
+	float: none;
+	border: 1px solid transparent;
+	border-bottom: 1px solid #ffffff;
+	background-color: #006766;
+}
+ul#menu li ul li a {
+	padding: 0 1em 0 15px; 
+	border: 0 none;
+	display: block;
+	color: #ffffff;
+	font-weight: normal;
+	line-height: 2em;
+	height: 2em;
+	text-align: left;
+	width: auto;
+}
+
+ul#menu li:hover ul, ul#menu li li:hover ul, ul#menu li li li:hover ul, ul#menu li.sfhover ul, ul#menu li li.sfhover ul, ul#menu li li li.sfhover ul {
+	left: auto;
+	zoom: 1;
+}
+
+ul#menu li ul a:hover {
+	background-color: #99cccc;
+	background-image: url( '../images/navdotover.jpg' );
+	background-repeat:no-repeat;
+	color: #000000;
+}

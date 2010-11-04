@@ -1,0 +1,290 @@
+body {
+	top: 0px;
+	left:0px;
+	margin: 0px;
+	padding: 0;
+	font-size: 13px;
+	line-height: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: url(../images/background.jpg);
+	background-repeat: repeat-y;
+	background-attachment: fixed;
+}
+
+#container {
+	width: 800px;
+	padding: 0 none;
+}
+
+
+
+#header {
+	width: 800px;
+	height: 122px;
+	text-decoration: none;
+	display: block;
+	background: #ffffff;
+}
+
+#header img {
+	border: 0 none;
+	margin: 0 none;
+	display: block;
+}
+
+#leftnav {
+	width: 120px;
+	color: white;
+	font-weight: bold;
+	float: left;
+	background: #9a0000;
+}
+#leftnav ul{
+	list-style: none;
+	margin: 0;
+	padding: 15px 0 0 5px;
+	text-transform:capitalize;
+	font:bold;
+}
+#leftnav li{
+	padding-bottom: 20px;
+}
+#leftnav ul li a{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-decoration:none;
+	color:#ffffff;
+	text-transform:capitalize;
+}
+#leftnav ul li a:hover{
+	color:#006766;
+}
+
+#topnav {
+	height: 20px;
+	width: 800px;
+	background: #ffffff;
+	background-image:url(../images/nav.jpg);
+	background-repeat: no-repeat;
+}
+
+
+
+#main {
+	width:650px;
+	padding:12px 10px 10px 15px;
+	background: #ffffff;
+	float:left;
+} 
+#mainholder {
+	width:655px;
+	float:left;
+} 
+#main .mainleft {
+	width: 440px;
+	float: left;
+	padding-right: 10px;
+} 
+#main .mainright {
+	width: 300px;
+	float: left;
+	padding: 0 10px 10px 10px;
+	
+	margin-left: 10px;
+} 
+
+
+
+
+/*******************/
+/*     TABLES      */
+/*******************/
+table {
+	border-spacing: 0px;
+}
+
+table.default {
+	margin: 0 auto 0 auto; 
+	width: auto;
+	border: 0 none;
+}
+table.default td {
+	padding: 4px;
+}
+table.centered {
+	margin: 0 auto 0 auto;
+}
+
+
+
+table.calculator {
+	background: #cdc8b6;
+	margin: 0 auto 0 auto;
+}
+table.calculator td {
+	border: 1px outset;
+	padding: 3px;
+}
+
+
+
+table.rates {
+	width: 500px;
+	border:solid 1px #cecece;
+}
+table.rates td {
+	padding: 5px;
+}
+table.rates th {
+	background: #99cccc;
+}
+
+table.mapquest {
+	margin: 0 auto 0 auto;
+	float: right;
+}
+
+
+/*****************/
+/*     TEXT     */
+/*****************/
+
+h1 {
+	font-size: 15px;
+	color: #9a0000;
+	text-align: left;
+} 
+h2 {
+	font-size: 14px;
+	color: #006766;
+} 
+
+
+
+
+
+.spaced {
+	line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a {
+	color: ;
+}
+
+a:hover {
+	color: #;
+}
+
+a.footer {
+	color: #;
+}
+
+a.footer:hover {
+	color: #;
+}
+
+.red {
+	color: red;
+	font-weight: bold;
+}
+/*********END TEXT ********/
+
+
+
+
+
+
+
+/*****************/
+/*    FIXINS     */
+/*****************/
+.clearfix {
+	height: 1%;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.centertext {
+	text-align: center;
+}
+
+
+img {
+	border: 0 none;
+	color: #2131A5;
+}
+
+fieldset {
+	border: 0 none;
+	float: right;
+}
+
+
+.fright {
+	float: right;
+	padding-left: 10px;
+}
+.fleft {
+	float: left;
+	padding-right: 10px;
+}
+/*********END FIXINS***********/
+
+
+
+
+
+
+ 
+
+
+
+
+#footer {
+	text-align: center;
+	float: left;
+	width:681px;
+	padding: 0 none;
+	border-left: 120px solid #9a0000;
+	background-color:#ffffff;
+}
+
+
+
+#footer table{
+	font-size: 10px;
+	width: 100%;
+}
+#footer table td{
+	padding: 5px;
+	width: 30%
+}
+
+#footer a{
+	padding: 1px;
+	font-size: 12px;
+	width: 613px;
+}
+
+
+
